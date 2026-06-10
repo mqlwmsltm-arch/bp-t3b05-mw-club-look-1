@@ -3,323 +3,301 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>망원 클럽 밤문화 트렌드 및 이용 꿀팁 칼럼 | 망원 클럽 룩북</title>
-  <meta name="description" content="망원동 감성에 어울리는 이색적인 사운드와 세련된 클럽 패션 룩북 코디네이션, 그리고 주변의 프라이빗 라운지 정보 완벽 정리. 2026 최신 트렌드 분석과 내돈내산 칼럼 수록.">
-  <meta name="keywords" content="망원 클럽 룩북, 망원 클럽 트렌드, 망원 클럽 후기, 망원 클럽 칼럼">
-  <link rel="canonical" href="https://t3b05-mw-club-look-1.pages.dev/blog.html">
-  <meta name="bpaas-design-system" content="midnight-glass">
-  <meta name="bpaas-design-theme" content="kr-t3b05-mw-club-look-1">
+  <title>망원 클럽 룩북 | 블로그 - 진짜 힙한 놈들만 아는 클럽 패션</title>
+  <meta name="description" content="내가 망원 클럽에서 직접 겪은 스트릿 브루탈리즘 룩 비하인드. 오버사이즈 실루엣, 로우 테크, 익스트림 컬러 - 클럽에서 눈에 띄는 꿀팁 대방출. 전화 010-6279-0862">
+  <meta name="keywords" content="망원 클럽, 망원 클럽 룩북, 망원 클럽룩, 스트릿 브루탈리즘, 클럽 패션, 망원동 클럽, 망원 놀거리, 클럽 룩, 블로그">
+  <meta name="bpaas-design-system" content="brutalist-avantgarde">
+  <meta name="bpaas-design-theme" content="kr-neon-void">
+  <link rel="canonical" href="https://t3b05-mw-club-look-1.vercel.app/blog">
+  <meta property="og:title" content="망원 클럽 룩북 블로그 | 내가 배운 스트릿 브루탈리즘 룩">
+  <meta property="og:description" content="망원 클럽에서 직접 경험한 진짜 클럽 룩 이야기. 오버사이즈, 로우 테크, 컬러 매칭 노하우까지. 한 번 읽어보셈">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://t3b05-mw-club-look-1.vercel.app/blog">
+  <meta property="og:image" content="https://t3b05-mw-club-look-1.vercel.app/og-image.jpg">
   <style>
-    
-    :root {
-      --bg-dark: #0d0d0f;
-      --bg-card: rgba(255, 255, 255, 0.03);
-      --border-color: rgba(255, 255, 255, 0.08);
-      --primary-neon: #2e1065;
-      --accent-neon: #a855f7;
-      --text-main: #f4f4f5;
-      --text-muted: #a1a1aa;
-    }
-    
-    * {
+    /* === RESET + BASE === */
+    *, *::before, *::after {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
-    
-    body {
-      background-color: var(--bg-dark);
-      color: var(--text-main);
-      font-family: system-ui, -apple-system, sans-serif;
-      line-height: 1.7;
-      overflow-x: hidden;
+    html {
+      font-size: 16px;
+      scroll-behavior: smooth;
     }
-    
-    .glow-header {
-      background: rgba(0, 0, 0, 0.5);
-      backdrop-filter: blur(12px);
-      border-bottom: 1px solid var(--border-color);
+    body {
+      font-family: 'Inter', 'Noto Sans KR', sans-serif;
+      background-color: #0a0a0a;
+      color: #e5e5e5;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    /* === TYPOGRAPHY === */
+    h1, h2, h3, h4 {
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+    h1 {
+      font-size: clamp(2.5rem, 8vw, 4.5rem);
+      line-height: 1;
+      text-transform: uppercase;
+      background: linear-gradient(135deg, #f0f0f0, #a0a0a0);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      margin-bottom: 0.5em;
+    }
+    h2 {
+      font-size: clamp(1.8rem, 5vw, 2.8rem);
+      border-left: 4px solid #ff4d4d;
+      padding-left: 0.6em;
+      margin-bottom: 0.8em;
+    }
+    h3 {
+      font-size: clamp(1.3rem, 3vw, 1.8rem);
+      margin-bottom: 0.6em;
+    }
+    p {
+      margin-bottom: 1.2em;
+      font-size: 1rem;
+    }
+    a {
+      color: #ff4d4d;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s;
+    }
+    a:hover, a:focus {
+      border-bottom-color: #ff4d4d;
+    }
+    strong {
+      color: #ff4d4d;
+      font-weight: 700;
+    }
+    /* === LAYOUT SYSTEM === */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+    .full-bleed {
+      width: 100vw;
+      margin-left: calc(-50vw + 50%);
+    }
+    section {
+      padding: 4rem 0;
+    }
+    /* --- NAV --- */
+    nav.nav-present {
       position: sticky;
       top: 0;
-      z-index: 100;
+      z-index: 1000;
+      background: #0a0a0a;
+      border-bottom: 1px solid #2a2a2a;
+      padding: 0.8rem 0;
     }
-    
-    .nav-container {
-      max-width: 1100px;
-      margin: 0 auto;
+    nav .nav-inner {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 16px 20px;
     }
-    
-    .logo-glow {
-      font-size: 1.4rem;
-      font-weight: 800;
-      color: #fff;
-      text-decoration: none;
-      background: linear-gradient(135deg, #fff, var(--accent-neon));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      text-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    nav .logo a {
+      font-size: 1.2rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #f0f0f0;
+      border: none;
     }
-    
-    .nav-links a {
-      color: var(--text-muted);
-      text-decoration: none;
-      margin-left: 24px;
-      font-size: 0.95rem;
-      font-weight: 600;
-      transition: color 0.3s;
+    nav .logo a:hover {
+      color: #ff4d4d;
     }
-    
-    .nav-links a:hover {
-      color: var(--accent-neon);
+    nav .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
     }
-    
-    .hero-glow {
-      padding: 120px 20px 80px;
-      text-align: center;
-      background: radial-gradient(circle at top, var(--primary-neon) 0%, transparent 70%);
+    nav .nav-links a {
+      color: #e5e5e5;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      border: none;
+      padding: 0.3rem 0;
       position: relative;
     }
-    
-    .hero-glow h1 {
-      font-size: 3rem;
-      font-weight: 900;
-      margin-bottom: 20px;
-      letter-spacing: -0.05em;
-      line-height: 1.2;
+    nav .nav-links a::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 1px;
+      background: #ff4d4d;
+      transition: width 0.3s;
     }
-    
-    .gradient-txt {
-      background: linear-gradient(135deg, #fff, var(--accent-neon));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+    nav .nav-links a:hover::after,
+    nav .nav-links a.active::after {
+      width: 100%;
     }
-    
-    .hero-glow p {
-      font-size: 1.2rem;
-      color: var(--text-muted);
-      max-width: 700px;
-      margin: 0 auto 30px;
+    nav .hamburger-menu {
+      display: none;
+      background: none;
+      border: none;
+      color: #f0f0f0;
+      font-size: 1.5rem;
+      cursor: pointer;
     }
-    
-    .neon-btn {
-      display: inline-block;
-      padding: 14px 32px;
-      background: linear-gradient(135deg, var(--primary-neon), var(--accent-neon));
-      color: white;
-      text-decoration: none;
-      font-weight: 700;
-      border-radius: 9999px;
-      box-shadow: 0 4px 20px rgba(236, 72, 153, 0.3);
-      transition: all 0.3s ease;
-    }
-    
-    .neon-btn:hover {
-      transform: scale(1.03);
-      box-shadow: 0 6px 25px rgba(236, 72, 153, 0.6);
-    }
-    
-    .sec-wrap {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 80px 20px;
-    }
-    
-    .glass-box {
-      background: var(--bg-card);
-      border: 1px solid var(--border-color);
-      border-radius: 20px;
-      padding: 40px;
-      backdrop-filter: blur(8px);
-      margin-bottom: 40px;
-    }
-    
-    .glass-box h2 {
-      font-size: 2rem;
-      font-weight: 800;
-      margin-bottom: 24px;
-      color: #fff;
-      border-left: 4px solid var(--accent-neon);
-      padding-left: 16px;
-    }
-    
-    .glass-box p {
-      font-size: 1.05rem;
-      color: var(--text-muted);
-      margin-bottom: 20px;
-    }
-    
-    .grid-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 24px;
-      margin-top: 32px;
-    }
-    
-    .mini-card {
-      background: rgba(255, 255, 255, 0.02);
-      border: 1px solid var(--border-color);
-      border-radius: 12px;
-      padding: 24px;
-      transition: border-color 0.3s, transform 0.3s;
-    }
-    
-    .mini-card:hover {
-      border-color: var(--accent-neon);
-      transform: translateY(-2px);
-    }
-    
-    .mini-card h3 {
-      font-size: 1.25rem;
-      font-weight: 700;
-      color: #fff;
-      margin-bottom: 12px;
-    }
-    
-    .mini-card p {
-      font-size: 0.95rem;
-      color: var(--text-muted);
-      margin-bottom: 0;
-    }
-    
-    .ugc-review {
-      border-top: 1px solid var(--border-color);
-      padding-top: 20px;
-      margin-top: 20px;
-    }
-    
-    .reviewer-meta {
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.85rem;
-      color: var(--accent-neon);
-      margin-bottom: 8px;
-      font-weight: 600;
-    }
-    
-    .reviewer-text {
-      font-size: 0.95rem;
-      color: var(--text-main);
-      font-style: italic;
-    }
-    
-    .phone-bar {
-      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.05), transparent);
-      padding: 16px;
-      border-radius: 8px;
-      margin: 20px 0;
-      font-size: 1.3rem;
-      font-weight: 800;
-      letter-spacing: 0.05em;
-    }
-    
-    .phone-bar a {
-      color: var(--accent-neon);
-      text-decoration: none;
-    }
-    
-    footer {
-      background: rgba(0, 0, 0, 0.4);
-      border-top: 1px solid var(--border-color);
-      padding: 40px 20px;
-      text-align: center;
-      font-size: 0.9rem;
-      color: var(--text-muted);
-    }
-    
-    footer p {
-      margin-bottom: 8px;
-    }
-    
-    footer a {
-      color: var(--text-muted);
-      text-decoration: none;
-      margin: 0 10px;
-    }
-    
-    footer a:hover {
-      color: var(--accent-neon);
-    }
-    
-    @media(max-width: 768px) {
-      .hero-glow h1 {
-        font-size: 2.2rem;
-      }
-      .nav-links {
+    /* responsive-768 */
+    @media (max-width: 768px) {
+      nav .nav-links {
         display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: #0a0a0a;
+        border-bottom: 1px solid #2a2a2a;
+        padding: 1rem 0;
+        gap: 0;
       }
-      .glass-box {
-        padding: 24px;
+      nav .nav-links.open {
+        display: flex;
+      }
+      nav .nav-links li {
+        text-align: center;
+      }
+      nav .nav-links a {
+        display: block;
+        padding: 0.8rem 0;
+      }
+      nav .hamburger-menu {
+        display: block;
       }
     }
-  
+    /* --- BLOCKQUOTE --- */
+    blockquote {
+      border-left: 4px solid #ff4d4d;
+      padding-left: 1.2rem;
+      margin: 1.5rem 0;
+      font-style: italic;
+      color: #aaa;
+    }
+    /* --- CARDS / BLOG POST --- */
+    .blog-post {
+      background: #141414;
+      border: 1px solid #2a2a2a;
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+    .blog-post .meta {
+      font-size: 0.85rem;
+      color: #777;
+      margin-bottom: 1rem;
+    }
+    .blog-post .meta span {
+      margin-right: 1.5rem;
+    }
+    .blog-post img {
+      max-width: 100%;
+      height: auto;
+      margin: 1.5rem 0;
+      border: 1px solid #2a2a2a;
+    }
+    .blog-post ul, .blog-post ol {
+      margin: 1rem 0 1.5rem 1.5rem;
+    }
+    .blog-post li {
+      margin-bottom: 0.5rem;
+    }
+    /* --- FOOTER --- */
+    footer {
+      border-top: 1px solid #2a2a2a;
+      padding: 2rem 0;
+      text-align: center;
+      color: #555;
+      font-size: 0.85rem;
+    }
+    footer a {
+      color: #ff4d4d;
+    }
   </style>
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "headline": "망원 클럽 밤문화 트렌드 및 이용 꿀팁",
-      "image": "https://t3b05-mw-club-look-1.pages.dev/og.jpg",
-      "author": {
-        "@type": "Person",
-        "name": "로컬 브로"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "망원 클럽 Portal"
-      },
-      "url": "https://t3b05-mw-club-look-1.pages.dev/blog.html"
-    }
-  </script>
 </head>
 <body>
-
-  <header class="glow-header">
-    <div class="nav-container">
-      <a href="index.html" class="logo-glow">망원 클럽</a>
-      <nav class="nav-links">
-        <a href="index.html">홈</a>
-        <a href="about.html">상세정보</a>
-        <a href="blog.html">블로그</a>
-      </nav>
+  <!-- NAV -->
+  <nav class="nav-present">
+    <div class="container nav-inner">
+      <div class="logo"><a href="/">MW CLUB</a></div>
+      <button class="hamburger-menu" aria-label="메뉴 열기">☰</button>
+      <ul class="nav-links">
+        <li><a href="/">홈</a></li>
+        <li><a href="/lookbook">룩북</a></li>
+        <li><a href="/blog" class="active">블로그</a></li>
+        <li><a href="/contact">연락처</a></li>
+      </ul>
     </div>
-  </header>
+  </nav>
 
-  <section class="hero-glow">
-    <h1><span class="gradient-txt">TREND BLOG</span> 칼럼</h1>
-    <p>망원 클럽의 핵심 정보와 로컬 유흥 문화를 지혜롭게 즐기는 팁을 수록하는 지식 저장소입니다.</p>
-    <div class="phone-bar">
-      📞 문의 및 빠른 예약: <a href="tel:010-6279-0862">010-6279-0862</a>
-    </div>
-  </section>
+  <!-- MAIN SECTION -->
+  <main>
+    <section>
+      <div class="container">
+        <h1>블로그</h1>
+        <p class="subtitle" style="font-size: 1.2rem; color: #aaa; margin-bottom: 2rem;">
+          내가 망원 클럽에서 배운 <strong>진짜 룩</strong> 이야기 — 브루탈리즘은 그냥 옷이 아냐, 태도야.
+        </p>
 
-  <main class="sec-wrap">
-    <div class="glass-box">
-      <h2>[칼럼] 2026 망원 클럽 스마트하게 백배 즐기는 법</h2>
-      <p>요즘 트렌드는 확실히 '스마트한 가성비'와 '프라이빗 힐링'으로 굳어졌어. 옛날처럼 아무 데나 들어가서 술 시키고 무계획으로 노는 시대는 끝났다는 거지. 특히 망원 지역은 경쟁이 치열한 핫스팟이라 잘만 고르면 퀄리티 높고 세련된 업소들을 합리적인 가격에 즐길 수 있는 최고의 기회가 있어.</p>
-      <p>내가 생각하는 가장 중요한 밤문화 핵심은 '백링크 밸런스'야. 즉, 제대로 검증된 정보와 솔직한 커뮤니티의 후기들을 바탕으로 자신에게 맞는 스타일을 미리 설계하는 거지. 만약 정보가 부족하다면, 주저하지 말고 로컬 전문가에게 물어보는 게 가장 현명해. 바가지 예방을 위해 유선 정찰 가격 확인을 귀찮아하지 마.</p>
-      <p>이곳 포털의 <a href="index.html" style="color: var(--accent-neon); text-decoration: underline;">홈페이지 메인 가이드</a>와 <a href="about.html" style="color: var(--accent-neon); text-decoration: underline;">상세정보 가이드</a>를 꼼꼼히 비교해보면 왜 많은 형들이 열광하고 재방문하는지 단박에 이해가 갈 거야.</p>
-      
-      <div class="phone-bar" style="text-align: center; background: rgba(255,255,255,0.02);">
-        📞 궁금한 점이나 오늘 밤 예약은 바로 전화 때려줘! <br>
-        <a href="tel:010-6279-0862">010-6279-0862</a> (터치 연결)
-      </div>
-    </div>
-  </main>
+        <!-- 블로그 포스트 -->
+        <article class="blog-post">
+          <div class="meta">
+            <span>📅 2025.04.13</span>
+            <span>✍️ 망원 클럽 룩북 팀</span>
+            <span>🏷️ 스트릿 브루탈리즘, 클럽 패션</span>
+          </div>
+          <h2>오버사이즈 실루엣? 그냥 큰 옷이 아니야.</h2>
+          <p>
+            형들, 안녕. 나 망원 클럽에서 주말마다 놀고 있는 브로야. 오늘은 진짜 내 경험담을 좀 풀어볼까 해. 
+            처음에 클럽 갈 때 뭐 입을지 엄청 고민했거든. 인터넷에 '클럽 룩북' 이런 거 검색해도 나오는 건 다 똑같은 
+            스키니진에 셔츠… 근데 망원 클럽 와보니까 완전 다르더라. 특히 <strong>오버사이즈 실루엣</strong>이 진짜 대세였어.
+          </p>
+          <p>
+            근데 여기서 중요한 건, 오버사이즈가 그냥 아무 옷이나 크게 입는 게 아니라는 거야. 어깨 라인이 딱 떨어지고, 
+            소매는 손등을 살짝 덮는 정도. 바지는 와이드 하지만 밑단이 바닥에 끌리지 않게. 이 미세한 차이가 
+            <strong>‘힙한 놈’</strong>과 <strong>‘그냥 커 보이는 놈’</strong>을 갈라놔. 
+            나도 처음엔 실패했었어. 큰 맨투맨 입고 갔다가 와이프한테 "너 이불 뒤집어쓴 거야?" 소리 들었지ㅋㅋㅋ
+          </p>
+          <blockquote>
+            “오버사이즈는 핏의 균형이 90%야. 어깨, 소매, 기장 — 셋 중 하나만 맞아도 반은 간다.”
+          </blockquote>
+          <p>
+            그래서 내가 지금 애용하는 꿀팁: <strong>숄더 패드 살짝 있는 자켓</strong>에 와이드 슬랙스, 
+            그리고 로우 테크 운동화. 이 조합이면 망원 클럽 어디서든 눈에 띄어. 
+            특히 <strong>컬러 매칭</strong>도 중요한데, 나는 베이지 + 블랙에 포인트로 네온 그린을 넣었어. 
+            어두운 클럽 조명에서도 네온이 살아있어서 좋더라. 
+          </p>
+          <p>
+            형들, 다음에 망원 클럽 갈 때 한번 시도해봐. 난 오늘도 이 룩 입고 나갈 거야. 
+            진짜 힙한 놈들이 다 아는 그 느낌, 알게 될 거야. 궁금한 거 있으면 댓글로 물어보셈. 
+            전화도 받아: <strong>010-6279-0862</strong>
+          </p>
+          <p style="margin-top: 2rem; font-size: 0.9rem; color: #777;">
+            ※ 이 글은 개인 경험을 바탕으로 한 주관적인 후기입니다. 스타일은 사람마다 다를 수 있어요.
+          </p>
+        </article>
 
-  <footer>
-    <p><strong>망원 클럽 찐후기 가이드 Portal</strong></p>
-    <p>주소: 서울특별시 망원구 일대 | 연락처: 010-6279-0862</p>
-    <p>
-      <a href="index.html">홈</a> | 
-      <a href="about.html">상세정보</a> | 
-      <a href="blog.html">블로그</a>
-    </p>
-    <p style="margin-top: 16px; opacity: 0.5;">&copy; 2026 망원 클럽 Portal. All Rights Reserved. 본 사이트는 성인 전용 정보 포털입니다.</p>
-  </footer>
-
+        <!-- 추가 블로그 카드 (다른 글 링크 느낌) -->
+        <div style="margin-top: 3rem; border-top: 1px solid #2a2a2a; padding-top: 2rem;">
+          <h3>다른 글도 읽어볼래?</h3>
+          <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; margin-top: 1.5rem;">
+            <div style="flex: 1; min-width: 250px; background: #141414; padding: 1.5rem; border: 1px solid #2a2a2a;">
+              <h4 style="font-size: 1.1rem;">로우 테크 운동화 추천 TOP 3</h4>
+              <p style="font-size: 0.9rem;">발편하고 스타일나는 신발 찾는다면? 내가 신어본 거만 골랐어.</p>
+              <a href="#" style="font-size: 0.85rem;">더 보기 →</a>
+            </div>
+            <div style="flex: 1; min-width: 250px; background: #141414; padding: 1.5rem; border: 1px solid #2a2a2a;">
+              <h4 style="font-size: 1.1rem;">망원 클럽 입장 팁 & 주의사항</h4>
+              <p style="font-size: 0.9rem;">처음 가는 놈들 필독! 줄 서지 않고 들어가는 꼼수? (feat. 룩)</p>
+              <a href="#" style="font-size:
 </body>
 </html>

@@ -1,344 +1,342 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>망원 클럽 룩북 — 실무 담당자를 위한 준비 체크리스트와 인원 변동 대응 가이드</title>
-  <meta name="description" content="망원 클럽 룩북 - 실무 담당자를 위한 준비 체크리스트와 인원 변동 대응, 마무리·정산 팁을 한눈에 정리한 가이드">
-  <meta name="keywords" content="망원, 클럽, 룩북, 준비, 체크리스트, 인원 변동, 정산, 가이드">
-  <link rel="canonical" href="https://mangwon-club-guide.link-hub.org/about.html">
-  <meta property="og:title" content="망원 클럽 룩북 — 실무 담당자를 위한 준비 체크리스트와 인원 변동 대응 가이드">
-  <meta property="og:description" content="망원 클럽 룩북 - 실무 담당자를 위한 준비 체크리스트와 인원 변동 대응, 마무리·정산 팁을 한눈에 정리한 가이드">
-  <meta property="og:url" content="https://mangwon-club-guide.link-hub.org/about.html">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="망원 클럽 룩북">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="망원 클럽 룩북 — 실무 담당자를 위한 준비 체크리스트와 인원 변동 대응 가이드">
-  <meta name="twitter:description" content="망원 클럽 룩북 - 실무 담당자를 위한 준비 체크리스트와 인원 변동 대응, 마무리·정산 팁을 한눈에 정리한 가이드">
-  <meta name="bpaas-design-system" content="editorial-apple">
-  <meta name="bpaas-design-theme" content="kr-noir-gold">
-  <style>
-    :root{
-      --primary:#1a1a1a;
-      --secondary:#fafaf5;
-      --accent:#c5a880;
-      --font-serif:serif;
-    }
-    body{
-      margin:0;
-      font-family:var(--font-serif);
-      background:var(--secondary);
-      color:var(--primary);
-      line-height:1.6;
-    }
-    a{color:var(--accent);text-decoration:none;}
-    .q-grid-jymm{
-      position:relative;
-      max-width:720px;
-      margin:0 auto;
-      height:400px;
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      text-align:center;
-      background:linear-gradient(135deg, #1a1a1a 0%, #3e2c2c 70%);
-      color:#fff;
-      overflow:hidden;
-    }
-    .q-grid-jymm::after{
-      content:"";
-      position:absolute;
-      inset:0;
-      background:rgba(0,0,0,0.35);
-    }
-    .q-grid-jymm h1{
-      font-size:2.8rem;
-      letter-spacing:0.08em;
-      z-index:1;
-      position:relative;
-      margin:0;
-      padding:0 24px;
-    }
-    .q-grid-jymm h1::first-letter{
-      float:left;
-      font-size:4rem;
-      line-height:1;
-      margin-right:8px;
-      color:var(--accent);
-    }
-    .x-item-x5j3{
-      background:var(--primary);
-      color:#fff;
-      padding:12px 24px;
-      display:flex;
-      justify-content:space-between;
-      align-items:center;
-      position:sticky;
-      top:0;
-      z-index:10;
-    }
-    .x-item-x5j3 .m-wrap-7zq6{font-size:1.2rem;}
-    .m-img-i26q{
-      display:none;
-      font-size:1.5rem;
-      cursor:pointer;
-    }
-    .q-txt-lay8{
-      list-style:none;
-      margin:0;
-      padding:0;
-      display:flex;
-      gap:24px;
-    }
-    .q-txt-lay8 li a{color:#fff;}
-    @media (max-width:768px){
-      .m-img-i26q{display:block;}
-      .q-txt-lay8{flex-direction:column;display:none;}
-      .q-txt-lay8.active{display:flex;}
-    }
-    .m-nav-hged{
-      max-width:720px;
-      margin:0 auto;
-      padding:48px 24px;
-    }
-    .m-nav-hged:nth-of-type(even){background:#fff;}
-    .t-card-5b8b{
-      display:grid;
-      grid-template-columns:repeat(3,1fr);
-      gap:32px;
-      margin-top:24px;
-    }
-    .m-box-vwg0{
-      border:1px solid var(--primary);
-      padding:24px;
-      position:relative;
-      background:#fff;
-      transform:rotate(var(--rotate));
-    }
-    .m-box-vwg0:nth-child(1){--rotate:0.5deg;}
-    .m-box-vwg0:nth-child(2){--rotate:-0.8deg;}
-    .m-box-vwg0:nth-child(3){--rotate:1.2deg;}
-    .m-box-vwg0 h3{
-      margin-top:0;
-      font-size:1.3rem;
-      letter-spacing:0.06em;
-    }
-    .t-nav-87hr{
-      display:inline-block;
-      padding:12px 24px;
-      background:var(--accent);
-      color:#fff;
-      border:0;
-      cursor:pointer;
-      text-align:center;
-      margin-top:16px;
-    }
-    .v-side-ww6n{
-      border-left:4px solid var(--accent);
-      padding-left:16px;
-      margin:24px 0;
-      font-style:italic;
-      background:#f9f9f9;
-    }
-    .m-btn-64hz{
-      width:100%;
-      border-collapse:collapse;
-      margin-top:16px;
-    }
-    .m-btn-64hz th,.m-btn-64hz td{
-      border:1px solid var(--primary);
-      padding:8px;
-      text-align:left;
-    }
-    .k-img-1zhb dt{
-      font-weight:bold;
-      margin-top:16px;
-    }
-    .k-img-1zhb dd{
-      margin-left:0;
-      margin-bottom:12px;
-    }
-    .r-main-t895{
-      background:var(--primary);
-      color:#fff;
-      text-align:center;
-      padding:24px;
-      font-size:0.9rem;
-    }
-    .k-item-v4sq{
-      background:#fff;
-      color:var(--primary);
-      padding:24px;
-      margin:48px auto;
-      max-width:720px;
-      border-top:2px solid var(--accent);
-    }
-    .r-foot-lc0c-nav{
-      position:fixed;
-      right:24px;
-      bottom:24px;
-      display:flex;
-      flex-direction:column;
-      gap:12px;
-    }
-    .r-foot-lc0c{
-      width:12px;
-      height:12px;
-      background:var(--accent);
-      border-radius:0;
-      cursor:pointer;
-    }
-  </style>
-  <script type="application/ld+json">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>망원 클럽 룩북 — 실무 담당자를 위한 준비 체크리스트와 인원 변동 대응 가이드</title>
+ <meta name="description" content="망원 클럽 룩북 - 실무 담당자를 위한 준비 체크리스트와 인원 변동 대응, 마무리·정산 팁을 한눈에 정리한 가이드">
+ <meta name="keywords" content="망원, 클럽, 룩북, 준비, 체크리스트, 인원 변동, 정산, 가이드">
+ <link rel="canonical" href="https://mangwon-club-guide.link-hub.org/about.html">
+ <meta property="og:title" content="망원 클럽 룩북 — 실무 담당자를 위한 준비 체크리스트와 인원 변동 대응 가이드">
+ <meta property="og:description" content="망원 클럽 룩북 - 실무 담당자를 위한 준비 체크리스트와 인원 변동 대응, 마무리·정산 팁을 한눈에 정리한 가이드">
+ <meta property="og:url" content="https://mangwon-club-guide.link-hub.org/about.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="망원 클럽 룩북">
+ <meta name="twitter:card" content="summary">
+ <meta name="twitter:title" content="망원 클럽 룩북 — 실무 담당자를 위한 준비 체크리스트와 인원 변동 대응 가이드">
+ <meta name="twitter:description" content="망원 클럽 룩북 - 실무 담당자를 위한 준비 체크리스트와 인원 변동 대응, 마무리·정산 팁을 한눈에 정리한 가이드">
+ <style>
+ :root{
+ --primary:#1a1a1a;
+ --secondary:#fafaf5;
+ --accent:#c5a880;
+ --font-serif:serif;
+ }
+ body{
+ margin:0;
+ font-family:var(--font-serif);
+ background:var(--secondary);
+ color:var(--primary);
+ line-height:1.6;
+ }
+ a{color:var(--accent);text-decoration:none;}
+ .q-grid-jymm{
+ position:relative;
+ max-width:720px;
+ margin:0 auto;
+ height:400px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+ text-align:center;
+ background:linear-gradient(135deg, #1a1a1a 0%, #3e2c2c 70%);
+ color:#fff;
+ overflow:hidden;
+ }
+ .q-grid-jymm::after{
+ content:"";
+ position:absolute;
+ inset:0;
+ background:rgba(0,0,0,0.35);
+ }
+ .q-grid-jymm h1{
+ font-size:2.8rem;
+ letter-spacing:0.08em;
+ z-index:1;
+ position:relative;
+ margin:0;
+ padding:0 24px;
+ }
+ .q-grid-jymm h1::first-letter{
+ float:left;
+ font-size:4rem;
+ line-height:1;
+ margin-right:8px;
+ color:var(--accent);
+ }
+ .x-item-x5j3{
+ background:var(--primary);
+ color:#fff;
+ padding:12px 24px;
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+ position:sticky;
+ top:0;
+ z-index:10;
+ }
+ .x-item-x5j3 .m-wrap-7zq6{font-size:1.2rem;}
+ .m-img-i26q{
+ display:none;
+ font-size:1.5rem;
+ cursor:pointer;
+ }
+ .q-txt-lay8{
+ list-style:none;
+ margin:0;
+ padding:0;
+ display:flex;
+ gap:24px;
+ }
+ .q-txt-lay8 li a{color:#fff;}
+ @media (max-width:768px){
+ .m-img-i26q{display:block;}
+ .q-txt-lay8{flex-direction:column;display:none;}
+ .q-txt-lay8.active{display:flex;}
+ }
+ .m-nav-hged{
+ max-width:720px;
+ margin:0 auto;
+ padding:48px 24px;
+ }
+ .m-nav-hged:nth-of-type(even){background:#fff;}
+ .t-card-5b8b{
+ display:grid;
+ grid-template-columns:repeat(3,1fr);
+ gap:32px;
+ margin-top:24px;
+ }
+ .m-box-vwg0{
+ border:1px solid var(--primary);
+ padding:24px;
+ position:relative;
+ background:#fff;
+ transform:rotate(var(--rotate));
+ }
+ .m-box-vwg0:nth-child(1){--rotate:0.5deg;}
+ .m-box-vwg0:nth-child(2){--rotate:-0.8deg;}
+ .m-box-vwg0:nth-child(3){--rotate:1.2deg;}
+ .m-box-vwg0 h3{
+ margin-top:0;
+ font-size:1.3rem;
+ letter-spacing:0.06em;
+ }
+ .t-nav-87hr{
+ display:inline-block;
+ padding:12px 24px;
+ background:var(--accent);
+ color:#fff;
+ border:0;
+ cursor:pointer;
+ text-align:center;
+ margin-top:16px;
+ }
+ .v-side-ww6n{
+ border-left:4px solid var(--accent);
+ padding-left:16px;
+ margin:24px 0;
+ font-style:italic;
+ background:#f9f9f9;
+ }
+ .m-btn-64hz{
+ width:100%;
+ border-collapse:collapse;
+ margin-top:16px;
+ }
+ .m-btn-64hz th,.m-btn-64hz td{
+ border:1px solid var(--primary);
+ padding:8px;
+ text-align:left;
+ }
+ .k-img-1zhb dt{
+ font-weight:bold;
+ margin-top:16px;
+ }
+ .k-img-1zhb dd{
+ margin-left:0;
+ margin-bottom:12px;
+ }
+ .r-main-t895{
+ background:var(--primary);
+ color:#fff;
+ text-align:center;
+ padding:24px;
+ font-size:0.9rem;
+ }
+ .k-item-v4sq{
+ background:#fff;
+ color:var(--primary);
+ padding:24px;
+ margin:48px auto;
+ max-width:720px;
+ border-top:2px solid var(--accent);
+ }
+ .r-foot-lc0c-nav{
+ position:fixed;
+ right:24px;
+ bottom:24px;
+ display:flex;
+ flex-direction:column;
+ gap:12px;
+ }
+ .r-foot-lc0c{
+ width:12px;
+ height:12px;
+ background:var(--accent);
+ border-radius:0;
+ cursor:pointer;
+ }
+ </style>
+ <script type="application/ld+json">
 {
-  "@context":"https://schema.org",
-  "@type":"WebPage",
-  "name":"망원 클럽 룩북",
-  "url":"https://mangwon-club-guide.link-hub.org/",
-  "description":"망원 클럽 룩북 - 실무 담당자를 위한 준비 체크리스트와 인원 변동 대응, 마무리·정산 팁을 한눈에 정리한 가이드",
-  "author":{
-    "@type":"Person",
-    "name":"한빛 가이드"
-  },
-  "hasPart":[
-    {
-      "@type":"FAQPage",
-      "mainEntity":[
-        {
-          "@type":"Question",
-          "name":"클럽 행사 준비 시 연락 창구를 하나로 두어야 하는 이유는?",
-          "acceptedAnswer":{
-            "@type":"Answer",
-            "text":"연락 창구를 하나로 통합하면 담당자 간 정보 혼선이 줄어들고, 외부 문의에 일관된 답변을 제공할 수 있어 업무 효율이 크게 높아집니다."
-          }
-        },
-        {
-          "@type":"Question",
-          "name":"인원 변동에 대비하는 가장 효과적인 방법은?",
-          "acceptedAnswer":{
-            "@type":"Answer",
-            "text":"예비 인원을 미리 확보하고, 담당자 별 역할 매뉴얼을 문서화해 두면 급변 상황에서도 빠르게 대처할 수 있습니다."
-          }
-        },
-        {
-          "@type":"Question",
-          "name":"행사 종료 후 정산 시 미리 정해두어야 할 사항은?",
-          "acceptedAnswer":{
-            "@type":"Answer",
-            "text":"예산 항목별 한도, 비용 청구 절차, 회계 담당자와 확인 시점 등을 사전에 정의해 두면 정산 과정에서 발생할 수 있는 분쟁을 최소화할 수 있습니다."
-          }
-        }
-      ]
-    }
-  ]
+ "@context":"https://schema.org",
+ "@type":"WebPage",
+ "name":"망원 클럽 룩북",
+ "url":"https://mangwon-club-guide.link-hub.org/",
+ "description":"망원 클럽 룩북 - 실무 담당자를 위한 준비 체크리스트와 인원 변동 대응, 마무리·정산 팁을 한눈에 정리한 가이드",
+ "author":{
+ "@type":"Person",
+ "name":"한빛 가이드"
+ },
+ "hasPart":[
+ {
+ "@type":"FAQPage",
+ "mainEntity":[
+ {
+ "@type":"Question",
+ "name":"클럽 행사 준비 시 연락 창구를 하나로 두어야 하는 이유는?",
+ "acceptedAnswer":{
+ "@type":"Answer",
+ "text":"연락 창구를 하나로 통합하면 담당자 간 정보 혼선이 줄어들고, 외부 문의에 일관된 답변을 제공할 수 있어 업무 효율이 크게 높아집니다."
+ }
+ },
+ {
+ "@type":"Question",
+ "name":"인원 변동에 대비하는 가장 효과적인 방법은?",
+ "acceptedAnswer":{
+ "@type":"Answer",
+ "text":"예비 인원을 미리 확보하고, 담당자 별 역할 매뉴얼을 문서화해 두면 급변 상황에서도 빠르게 대처할 수 있습니다."
+ }
+ },
+ {
+ "@type":"Question",
+ "name":"행사 종료 후 정산 시 미리 정해두어야 할 사항은?",
+ "acceptedAnswer":{
+ "@type":"Answer",
+ "text":"예산 항목별 한도, 비용 청구 절차, 회계 담당자와 확인 시점 등을 사전에 정의해 두면 정산 과정에서 발생할 수 있는 분쟁을 최소화할 수 있습니다."
+ }
+ }
+ ]
+ }
+ ]
 }
-  </script>
+ </script>
 </head>
 <body>
-  <!-- a1b2c3d4 -->
-  <!-- f5e6d7c8 -->
-  <header class="q-grid-jymm">
-    <h1>망원 클럽 룩북</h1>
-  </header>
+ <!-- a1b2c3d4 -->
+ <!-- f5e6d7c8 -->
+ <header class="q-grid-jymm">
+ <h1>망원 클럽 룩북</h1>
+ </header>
 
-  <nav class="x-item-x5j3">
-    <div class="m-wrap-7zq6">망원 클럽</div>
-    <div class="m-img-i26q" id="navToggle">&#9776;</div>
-    <ul class="q-txt-lay8" id="navMenu">
-      <li><a href="#checklist">준비 체크리스트</a></li>
-      <li><a href="#prep">현장 준비</a></li>
-      <li><a href="#contact">연락 창구</a></li>
-      <li><a href="#settlement">마무리·정산</a></li>
-      <li><a href="#faq">FAQ</a></li>
-    </ul>
-  </nav>
+ <nav class="x-item-x5j3">
+ <div class="m-wrap-7zq6">망원 클럽</div>
+ <div class="m-img-i26q" id="navToggle">&#9776;</div>
+ <ul class="q-txt-lay8" id="navMenu">
+ <li><a href="#checklist">준비 체크리스트</a></li>
+ <li><a href="#prep">현장 준비</a></li>
+ <li><a href="#contact">연락 창구</a></li>
+ <li><a href="#settlement">마무리·정산</a></li>
+ <li><a href="#faq">FAQ</a></li>
+ </ul>
+ </nav>
 
-  <section id="checklist" class="m-nav-hged">
-    <h2>준비 체크리스트</h2>
-    <p>행사의 성공은 사전 준비에 달려 있습니다. 특히 클럽과 같이 인원 흐름이 유동적인 공간에서는 체계적인 체크리스트가 필수입니다.</p>
-    <div class="t-card-5b8b">
-      <article class="m-box-vwg0">
-        <h3>현장 장비 점검</h3>
-        <p>음향, 조명, 전원 설비를 사전 점검하고, 예비 장비를 최소 한 개씩 비상용으로 마련해 두세요.</p>
-        <button class="t-nav-87hr">자세히 보기</button>
-      </article>
-      <article class="m-box-vwg0">
-        <h3>인원 변동 대응</h3>
-        <p>예비 인원을 확보하고, 역할 별 매뉴얼을 공유해 갑작스러운 인원 변동에도 원활히 진행됩니다.</p>
-        <button class="t-nav-87hr">자세히 보기</button>
-      </article>
-      <article class="m-box-vwg0">
-        <h3>마무리·정산 대비</h3>
-        <p>예산 한도와 비용 청구 절차를 사전 정의하고, 회계 담당자와 정산 일정에 대해 사전 협의를 진행합니다.</p>
-        <button class="t-nav-87hr">자세히 보기</button>
-      </article>
-    </div>
-  </section>
+ <section id="checklist" class="m-nav-hged">
+ <h2>준비 체크리스트</h2>
+ <p>행사의 성공은 사전 준비에 달려 있습니다. 특히 클럽과 같이 인원 흐름이 유동적인 공간에서는 체계적인 체크리스트가 필수입니다.</p>
+ <div class="t-card-5b8b">
+ <article class="m-box-vwg0">
+ <h3>현장 장비 점검</h3>
+ <p>음향, 조명, 전원 설비를 사전 점검하고, 예비 장비를 최소 한 개씩 비상용으로 마련해 두세요.</p>
+ <button class="t-nav-87hr">자세히 보기</button>
+ </article>
+ <article class="m-box-vwg0">
+ <h3>인원 변동 대응</h3>
+ <p>예비 인원을 확보하고, 역할 별 매뉴얼을 공유해 갑작스러운 인원 변동에도 원활히 진행됩니다.</p>
+ <button class="t-nav-87hr">자세히 보기</button>
+ </article>
+ <article class="m-box-vwg0">
+ <h3>마무리·정산 대비</h3>
+ <p>예산 한도와 비용 청구 절차를 사전 정의하고, 회계 담당자와 정산 일정에 대해 사전 협의를 진행합니다.</p>
+ <button class="t-nav-87hr">자세히 보기</button>
+ </article>
+ </div>
+ </section>
 
-  <section id="prep" class="m-nav-hged">
-    <h2>현장 준비</h2>
-    <p>클럽 현장은 규모와 분위기에 따라 설비 요구사항이 크게 달라집니다. 준비 담당자는 공간 특성을 정확히 파악하고, 각각에 맞는 체크포인트를 정의해야 합니다.</p>
-    <p>먼저 공간 구조를 도면으로 파악하고, 출입 동선과 비상구 위치를 숙지합니다. 이어서 조명 배치와 음향 설비가 관객의 경험을 좌우한다는 점을 기억하세요.</p>
-    <blockquote class="v-side-ww6n">“세부 사항 하나하나가 전체 분위기를 형성한다. 작은 실수가 큰 흐름을 깨뜨릴 수 있다.”</blockquote>
-    <p>다음 단계는 담당 인원 배치를 확정하는 것입니다. 각 파트별 책임자를 지정하고, 연락망을 명확히 구성해두면 현장 상황 발생 시 빠르게 대처할 수 있습니다.</p>
-    <span aria-hidden="true" data-t="3f9a7c2b">●</span>
-  </section>
+ <section id="prep" class="m-nav-hged">
+ <h2>현장 준비</h2>
+ <p>클럽 현장은 규모와 분위기에 따라 설비 요구사항이 크게 달라집니다. 준비 담당자는 공간 특성을 정확히 파악하고, 각각에 맞는 체크포인트를 정의해야 합니다.</p>
+ <p>먼저 공간 구조를 도면으로 파악하고, 출입 동선과 비상구 위치를 숙지합니다. 이어서 조명 배치와 음향 설비가 관객의 경험을 좌우한다는 점을 기억하세요.</p>
+ <blockquote class="v-side-ww6n">“세부 사항 하나하나가 전체 분위기를 형성한다. 작은 실수가 큰 흐름을 깨뜨릴 수 있다.”</blockquote>
+ <p>다음 단계는 담당 인원 배치를 확정하는 것입니다. 각 파트별 책임자를 지정하고, 연락망을 명확히 구성해두면 현장 상황 발생 시 빠르게 대처할 수 있습니다.</p>
+ <span aria-hidden="true" data-t="3f9a7c2b">●</span>
+ </section>
 
-  <section id="contact" class="m-nav-hged">
-    <h2>연락 창구를 하나로 두는 이유</h2>
-    <p>다양한 채널을 동시에 운영하면 외부 문의에 대한 응답이 분산되고, 정보가 중복되거나 누락될 위험이 커집니다. 한 개의 공식 연락 창구를 지정하면 담당자 간 협업이 원활해지고, 고객에게 일관된 메시지를 전달할 수 있습니다.</p>
-    <p>또한, 문의 기록을 중앙화함으로써 사후 분석과 개선 작업이 쉬워집니다. 문의 유형별 통계 자료를 손쉽게 추출해 운영 정책에 반영할 수 있죠.</p>
-    <table class="m-btn-64hz">
-      <thead>
-        <tr><th>채널</th><th>장점</th><th>단점</th></tr>
-      </thead>
-      <tbody>
-        <tr><td>이메일</td><td>기록 보관 용이</td><td>실시간 응답 어려움</td></tr>
-        <tr><td>전화</td><td>즉각적 소통</td><td>분산 관리 위험</td></tr>
-        <tr><td>채팅</td><td>다양한 사용자 접근</td><td>응답 속도 요구</td></tr>
-      </tbody>
-    </table>
-    <span aria-hidden="true" data-t="d4e1b6a9">○</span>
-  </section>
+ <section id="contact" class="m-nav-hged">
+ <h2>연락 창구를 하나로 두는 이유</h2>
+ <p>다양한 채널을 동시에 운영하면 외부 문의에 대한 응답이 분산되고, 정보가 중복되거나 누락될 위험이 커집니다. 한 개의 공식 연락 창구를 지정하면 담당자 간 협업이 원활해지고, 고객에게 일관된 메시지를 전달할 수 있습니다.</p>
+ <p>또한, 문의 기록을 중앙화함으로써 사후 분석과 개선 작업이 쉬워집니다. 문의 유형별 통계 자료를 손쉽게 추출해 운영 정책에 반영할 수 있죠.</p>
+ <table class="m-btn-64hz">
+ <thead>
+ <tr><th>채널</th><th>장점</th><th>단점</th></tr>
+ </thead>
+ <tbody>
+ <tr><td>이메일</td><td>기록 보관 용이</td><td>실시간 응답 어려움</td></tr>
+ <tr><td>전화</td><td>즉각적 소통</td><td>분산 관리 위험</td></tr>
+ <tr><td>채팅</td><td>다양한 사용자 접근</td><td>응답 속도 요구</td></tr>
+ </tbody>
+ </table>
+ <span aria-hidden="true" data-t="d4e1b6a9">○</span>
+ </section>
 
-  <section id="settlement" class="m-nav-hged">
-    <h2>마무리·정산에서 미리 정해두어야 할 것</h2>
-    <p>행사 종료 후 정산 과정은 가장 많은 분쟁이 발생하는 단계 중 하나입니다. 사전에 정산 항목과 담당자를 명확히 지정하면, 비용 청구와 회계 처리 시 혼란을 최소화할 수 있습니다.</p>
-    <p>예산 한도는 항목별로 세분화하고, 각 항목에 대한 승인 절차를 정의합니다. 또한, 영수증 및 계약서 보관 방식을 통일해 두면 증빙 자료 제출이 원활해집니다.</p>
-    <p>마지막으로, 정산 일정과 검토 회의를 사전에 스케줄링해 두어 모든 이해관계자가 동일한 시점에 결과를 확인하도록 합니다.</p>
-    <span aria-hidden="true" data-t="9a0c3e5f">·</span>
-  </section>
+ <section id="settlement" class="m-nav-hged">
+ <h2>마무리·정산에서 미리 정해두어야 할 것</h2>
+ <p>행사 종료 후 정산 과정은 가장 많은 분쟁이 발생하는 단계 중 하나입니다. 사전에 정산 항목과 담당자를 명확히 지정하면, 비용 청구와 회계 처리 시 혼란을 최소화할 수 있습니다.</p>
+ <p>예산 한도는 항목별로 세분화하고, 각 항목에 대한 승인 절차를 정의합니다. 또한, 영수증 및 계약서 보관 방식을 통일해 두면 증빙 자료 제출이 원활해집니다.</p>
+ <p>마지막으로, 정산 일정과 검토 회의를 사전에 스케줄링해 두어 모든 이해관계자가 동일한 시점에 결과를 확인하도록 합니다.</p>
+ <span aria-hidden="true" data-t="9a0c3e5f">·</span>
+ </section>
 
-  <section id="faq" class="m-nav-hged k-img-1zhb">
-    <h2>자주 묻는 질문</h2>
-    <dl>
-      <dt>클럽 행사의 사전 준비 시 가장 중요한 체크포인트는?</dt>
-      <dd>장비 점검, 인원 배치, 그리고 연락 창구 통합이 핵심이며, 각각을 체크리스트 형태로 문서화해 두는 것이 바람직합니다.</dd>
-      <dt>인원 변동에 대비하는 비상 계획은 어떻게 수립하나요?</dt>
-      <dd>예비 인원을 미리 지정하고, 역할 매뉴얼을 문서화해 두면 급변 상황에서도 신속히 대응할 수 있습니다.</dd>
-      <dt>정산 단계에서 흔히 발생하는 오류와 예방 방법은?</dt>
-      <dd>예산 항목별 한도 초과와 영수증 누락이 주된 오류입니다. 항목별 한도 설정과 영수증 중앙 보관 체계를 마련하면 예방이 가능합니다.</dd>
-    </dl>
-  </section>
+ <section id="faq" class="m-nav-hged k-img-1zhb">
+ <h2>자주 묻는 질문</h2>
+ <dl>
+ <dt>클럽 행사의 사전 준비 시 가장 중요한 체크포인트는?</dt>
+ <dd>장비 점검, 인원 배치, 그리고 연락 창구 통합이 핵심이며, 각각을 체크리스트 형태로 문서화해 두는 것이 바람직합니다.</dd>
+ <dt>인원 변동에 대비하는 비상 계획은 어떻게 수립하나요?</dt>
+ <dd>예비 인원을 미리 지정하고, 역할 매뉴얼을 문서화해 두면 급변 상황에서도 신속히 대응할 수 있습니다.</dd>
+ <dt>정산 단계에서 흔히 발생하는 오류와 예방 방법은?</dt>
+ <dd>예산 항목별 한도 초과와 영수증 누락이 주된 오류입니다. 항목별 한도 설정과 영수증 중앙 보관 체계를 마련하면 예방이 가능합니다.</dd>
+ </dl>
+ </section>
 
-  <section class="k-item-v4sq">
-    <p>한빛 가이드 — 클럽 운영과 현장 관리 분야를 5년간 정리해온 로컬 전문가. 실무 현장의 어려움을 이해하고, 체계적인 가이드를 제공하는데 초점을 맞추고 있습니다.</p>
-  </section>
+ <section class="k-item-v4sq">
+ <p>한빛 가이드 — 클럽 운영과 현장 관리 분야를 5년간 정리해온 로컬 전문가. 실무 현장의 어려움을 이해하고, 체계적인 가이드를 제공하는데 초점을 맞추고 있습니다.</p>
+ </section>
 
-  <footer class="r-main-t895">
-    © 2026 망원 클럽 룩북. All rights reserved.
-  </footer>
+ <footer class="r-main-t895">
+ © 2026 망원 클럽 룩북. All rights reserved.
+ </footer>
 
-  <div class="r-foot-lc0c-nav">
-    <div class="r-foot-lc0c" onclick="document.getElementById('checklist').scrollIntoView({behavior:'smooth'});"></div>
-    <div class="r-foot-lc0c" onclick="document.getElementById('prep').scrollIntoView({behavior:'smooth'});"></div>
-    <div class="r-foot-lc0c" onclick="document.getElementById('faq').scrollIntoView({behavior:'smooth'});"></div>
-  </div>
+ <div class="r-foot-lc0c-nav">
+ <div class="r-foot-lc0c" onclick="document.getElementById('checklist').scrollIntoView({behavior:'smooth'});"></div>
+ <div class="r-foot-lc0c" onclick="document.getElementById('prep').scrollIntoView({behavior:'smooth'});"></div>
+ <div class="r-foot-lc0c" onclick="document.getElementById('faq').scrollIntoView({behavior:'smooth'});"></div>
+ </div>
 
-  <script>
-    const toggle=document.getElementById('navToggle');
-    const menu=document.getElementById('navMenu');
-    toggle.addEventListener('click',()=>{menu.classList.toggle('active');});
-  </script>
+ <script>
+ const toggle=document.getElementById('navToggle');
+ const menu=document.getElementById('navMenu');
+ toggle.addEventListener('click',()=>{menu.classList.toggle('active');});
+ </script>
 </body>
 </html>
